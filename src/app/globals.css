@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +8,7 @@
 	--foreground-rgb: 0, 0, 0;
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: 255, 255, 255;
-	--fontfamily-poppins: "Montserrat", sans-serif;
+	--font-montserrat: 'Montserrat', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,11 +18,12 @@
 		--background-end-rgb: 0, 0, 0;
 	}
 }
-
+html {
+	font-family: var(--font-montserrat);
+}
 body {
 	color: var(--foreground-rgb);
 	background:  var(--background-end-rgb);
-	font-family: var(--fontfamily-poppins);
 }
 
 @layer utilities {
@@ -33,7 +33,8 @@ body {
 	.text-stroke{
 		-webkit-text-stroke: 1px #000;
 	}
-	.poppins{
-		font-family:  "Montserrat", "sans-serif";
+	.text-theme {
+		color: #1f436e;
 	}
+
 }
