@@ -7,7 +7,7 @@ import Link from 'next/link'
 const About = () => {
     return (
         <>
-        <section className='flex items-center flex-wrap md:flex-row'>
+        <section className='flex items-start flex-wrap md:flex-row'>
             <div className='w-full md:w-4/12 flex flex-col gap-4'>
                 <Image src={profilepic} alt="" className='max-w-full h-auto border rounded-md p-3'/>
                 <h2 className=' text-2xl text-center text-theme'>Dharmendra Rathore</h2>
