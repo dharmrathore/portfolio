@@ -9,6 +9,7 @@
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: 255, 255, 255;
 	--font-montserrat: 'Montserrat', sans-serif;
+	--text-color: #1f436e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,10 +21,14 @@
 }
 html {
 	font-family: var(--font-montserrat);
+	scroll-behavior: smooth;
 }
 body {
 	color: var(--foreground-rgb);
 	background:  var(--background-end-rgb);
+}
+html  canvas{
+	display: none;
 }
 
 @layer utilities {
@@ -33,8 +38,8 @@ body {
 	.text-stroke{
 		-webkit-text-stroke: 1px #000;
 	}
-	.text-theme {
-		color: #1f436e;
+	.theme-color {
+		color: var(--text-color);
 	}
 
 }
