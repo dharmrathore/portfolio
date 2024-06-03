@@ -1,6 +1,8 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+
 
 const Header = () => {
 
@@ -52,8 +54,10 @@ const Header = () => {
     return (
         <>
         <header className={`z-10 mx-auto w-full items-center justify-between  bg-white fixed  top-0 right-0 transition-all  left-0 flex duration-500 ${isScroll ? 'shadow-lg py-0' : 'py-4'}`}>
-            <nav className="w-full flex items-center justify-between max-w-7xl mx-auto px-4 py-3 md:py-6 duration-500 transition-all">
-                <Link href="/" className='font-semibold text-lg text-[#1f436e]' title='Dev'>Dev</Link>
+            <nav className="w-full flex items-center justify-between max-w-7xl mx-auto px-4 py-3 md:py-4 duration-500 transition-all">
+                <Link href="/" className='font-semibold text-lg text-[#1f436e]' title='Dev'>
+                    <Image src="/images/logo.png" alt='logo' width={40} height={40}/>
+                </Link>
                 <button 
                     className="block md:hidden text-gray-600 hover:text-[#1f436e] focus:outline-none"
                     onClick={() => setMenuOpen(!menuOpen)}
