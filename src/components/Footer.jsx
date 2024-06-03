@@ -10,16 +10,16 @@ const Footer = () => {
                         <h2 className='text-sm mb-2 md:mb-4 uppercase'>Contact</h2>
                         <h3 className='text-xl md:text-3xl font-semibold theme-color'>Get in Touch with Me!</h3>
                     </div>
-                    <div class="flex flex-wrap md:flex-row gap-4 md:gap-0 justify-between">
+                    <div class="flex flex-wrap md:flex-row gap-4 md:gap-0 justify-between h-full">
                         <div class="basis-full md:basis-1/3 h-full">
                             <ul className='p-4 md:p-10 bg-gray-300 rounded-lg flex flex-col gap-4 h-full'>
-                                <li className='flex items-baseline gap-3 mb-4 flex-col'>
+                                {/* <li className='flex items-baseline gap-3 mb-4 flex-col'>
                                     <span className='text-xl theme-color' dangerouslySetInnerHTML={{__html: iconsSvg.locationIcon}} />
                                     <div className='flex flex-col gap-1'>
                                         <h3 className='text-base font-semibold'>Our Office:</h3>
                                         <p className='text-sm'>NSEZ Sector 81, Noida, India</p>
                                     </div>
-                                </li>
+                                </li> */}
                                 <li className='flex items-baseline gap-3 mb-4 flex-col'>
                                     <span className='text-xl theme-color' dangerouslySetInnerHTML={{__html: iconsSvg.phoneIcon}} />
                                     <div  className='flex flex-col gap-1'>
