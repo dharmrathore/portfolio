@@ -10,8 +10,8 @@ const Footer = () => {
                         <h2 className='text-sm mb-2 md:mb-4 uppercase'>Contact</h2>
                         <h3 className='text-xl md:text-3xl font-semibold theme-color'>Get in Touch with Me!</h3>
                     </div>
-                    <div class="flex flex-wrap md:flex-row gap-4 md:gap-0 justify-between h-full">
-                        <div class="basis-full md:basis-1/3 h-full">
+                    <div className="flex flex-wrap md:flex-row gap-4 md:gap-0 justify-between h-full">
+                        <div className="basis-full md:basis-1/3 h-full">
                             <ul className='p-4 md:p-10 bg-gray-300 rounded-lg flex flex-col gap-4 h-full'>
                                 {/* <li className='flex items-baseline gap-3 mb-4 flex-col'>
                                     <span className='text-xl theme-color' dangerouslySetInnerHTML={{__html: iconsSvg.locationIcon}} />
@@ -36,7 +36,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div class="basis-full md:basis-7/12">
+                        <div className="basis-full md:basis-7/12">
                             <div className='bg-white border p-4 md:p-10 rounded-lg'>
                                 <div className='flex flex-col md:flex-row w-full gap-4 md:gap-8 mb-4 md:mb-8'>
                                     <div className='block w-full md:w-6/12'>
@@ -52,7 +52,7 @@ const Footer = () => {
                                     <label className='mb-2 inline-block text-sm md:text-base' htmlFor="Your Message">Your Message</label>
                                     <textarea name="message" id="" rows={4} className='text-sm md:text-base w-full border p-3 rounded-lg theme-colorr' placeholder='Write Your Message...'></textarea>
                                 </div>
-                                <button type='submit' class="p-3 text-sm md:text-base md:p-4 border bg-[#1f436e] text-white transition-all flex items-center gap-1 rounded-md hover:shadow-lg hover:opacity-90">
+                                <button type='submit' className="p-3 text-sm md:text-base md:p-4 border bg-[#1f436e] text-white transition-all flex items-center gap-1 rounded-md hover:shadow-lg hover:opacity-90">
                                     Send Me Message
                                 </button>
                             </div>
