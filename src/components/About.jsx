@@ -6,9 +6,7 @@ import { iconsSvg } from '@/app/utils/Iconsvg'
 
 
 const About = () => {
-    const heandlDownloadCV =() => {
-       
-    }
+
     return (
         <>
         <section className='w-full md:py-5' id='about'>
@@ -40,10 +38,10 @@ const About = () => {
                 </div>
                 <div className='w-full md:w-8/12 p-0 md:p-10 mt-4 md:mt-0'>
                     <h2 className='text-xl md:text-3xl lg:text-5xl mb-6'>Hello, I'm Dharmendra Rathore,<span className='text-[#1f436e] '> Senior UI Developer</span> Based in India.</h2>
-                    <button onClick={ heandlDownloadCV()} className='p-4 border bg-[#1f436e] text-white transition-all flex items-center gap-1 rounded-md hover:shadow-lg hover:opacity-90'>
+                    <Link href="/resume/dharmendra_resume.pdf" target='_blank' className='p-4 border bg-[#1f436e] text-white transition-all inline-flex items-center gap-1 rounded-md hover:shadow-lg hover:opacity-90'>
                         Download CV 
                         <span className='animate-pulse' dangerouslySetInnerHTML={{__html: iconsSvg.downloadIcon}}/>
-                    </button>
+                    </Link>
                     <ul className='grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 mt-4'>
                         <li className='inline-flex items-center text-sm md:text-base'>
                             <span className='w-5 h-5 flex items-center'>

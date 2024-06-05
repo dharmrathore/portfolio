@@ -16,12 +16,26 @@ export default function Home() {
 			<Suspense fallback={<p>Loading...</p>}>
 				<HeroBanner/>
 			</Suspense>
+			<Suspense fallback={<p>Loading...</p>}>
 			<About/>
+			</Suspense>
+			<Suspense fallback={<p>Loading...</p>}>
 			<Services/>
+			</Suspense>
+			<Suspense fallback={<p>Loading...</p>}>
 			<Resume/>
-			<Projects/>
+			</Suspense>
+			<Suspense fallback={<p>Loading...</p>}><Projects/></Suspense>
+			
+			
+			
+			
+			
 		</main>
+		<Suspense fallback={<p>Loading...</p>}>
 		<Footer/>
+		</Suspense>
+		
 		
     </div>
   );

@@ -26,22 +26,22 @@ const Services = () => {
                         <div className='w-16 h-16 text-[#1f436e]'>
                             <span dangerouslySetInnerHTML={{ __html: iconsSvg.brandIcon }} />
                         </div>
-                        <h3 className='text-base md:text-lg  font-semibold'>Brand Identity Design</h3>
-                        <p>Kane gives you the blocks & kits you need to create a true website within minutes.</p>
+                        <h3 className='text-base md:text-lg  font-semibold text-[#1f436e]'>Brand Identity Design</h3>
+                        <p>We specialize in creating unique brand identities that resonate with your target audience.</p>
                     </div>
                     <div className='flex flex-col gap-4 items-center bg-gray-200 bg-gradient-to-tl text-center transition-all rounded-lg border border-transparent hover:border-[#1f436e] hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2'>
                         <div className='w-16 h-16 text-[#1f436e]'>
                         <span dangerouslySetInnerHTML={{ __html: iconsSvg.websiteIcon }} />
                         </div>
-                        <h3 className='text-base md:text-lg  font-semibold'>Website Design</h3>
-                        <p>Kane gives you the blocks & kits you need to create a true website within minutes.</p>
+                        <h3 className='text-base md:text-lg  font-semibold text-[#1f436e]'>Website Design</h3>
+                        <p>We specialize in creating visually stunning, user-friendly websites that drive engagement and conversions.</p>
                     </div>
                     <div className='flex flex-col gap-4 items-center bg-gray-200 bg-gradient-to-tl text-center transition-all rounded-lg border border-transparent hover:border-[#1f436e] hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2'>
                         <div className='w-16 h-16 text-[#1f436e]'>
                             <span dangerouslySetInnerHTML={{ __html: iconsSvg.applicationIcon }} />
                         </div>
-                        <h3 className='text-base md:text-lg  font-semibold'>Application Design</h3>
-                        <p>Kane gives you the blocks & kits you need to create a true website within minutes.</p>
+                        <h3 className='text-base md:text-lg  font-semibold text-[#1f436e]'>Innovative Application Design</h3>
+                        <p> We specialize in creating intuitive, visually appealing apps for mobile and web platforms. </p>
                     </div>
                 </div>
             </div>
