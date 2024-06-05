@@ -27,10 +27,6 @@ export default function Home() {
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}><Projects/></Suspense>
 			
-			
-			
-			
-			
 		</main>
 		<Suspense fallback={<p>Loading...</p>}>
 		<Footer/>

@@ -14,15 +14,15 @@ const Header = () => {
         const handleScroll = () => {
             const sections = document.querySelectorAll('section');
             const scrollPos = window.scrollY + window.innerHeight / 2;
-            const top = `200px`;
+           // const marginTop = 200;
         
             sections.forEach((section) => {
-                if (section.offsetTop + top  <= scrollPos && (section.offsetTop + section.offsetHeight) > scrollPos) {
+                if (section.offsetTop <= scrollPos && (section.offsetTop + section.offsetHeight) > scrollPos) {
                     setIsActiveSection(section.getAttribute('id'));
                 }
             });
         
-            if (window.scrollY > 50) {
+            if (window.scrollY > 100) {
                 setIsScroll(true);
             } else {
                 setIsScroll(false);
@@ -64,22 +64,22 @@ const Header = () => {
                 </button>
                 <ul className={`flex-col md:flex-row flex md:flex items-center justify-center gap-4 fixed md:static top-0 left-0 bg-white h-screen md:h-auto w-72 md:w-auto transform ${menuOpen ? '-translate-x-0 z-10' : '-translate-x-full'} md:translate-x-0 transition-transform duration-500 ease-in-out`}>
                     <li>
-                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium border-b-2 transition-all duration-300 ease-linear pb-1 border-transparent hover:border-[#1f436e] border-solid  ${isActiveSection === 'home' ? 'text-[#1f436e] border-[#1f436e]' : 'text-gray-600' }`} href="/#home" rel="home" title="Home" scroll={true}>Home</Link>
+                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'home' ? 'text-[#1f436e]  border-b-2 border-[#1f436e] ' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#home" rel="home" title="Home" scroll={true}>Home</Link>
                     </li>
                     <li>
-                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium border-b-2 transition-all duration-300 ease-linear pb-1 border-transparent hover:border-[#1f436e] border-solid   ${isActiveSection === 'about' ? 'text-[#1f436e] border-[#1f436e]' : 'text-gray-600' }`} href="/#about" rel="about" title="about" scroll={true}>About</Link>
+                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'about' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#about" rel="about" title="about" scroll={true}>About</Link>
                     </li>
                     <li>
-                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium border-b-2 transition-all duration-300 ease-linear pb-1 border-transparent hover:border-[#1f436e] border-solid  ${isActiveSection === 'services' ? 'text-[#1f436e] border-[#1f436e]' : 'text-gray-600' }`} href="/#services" rel="Services" title="Services" scroll={true}>Services</Link>
+                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'services' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#services" rel="Services" title="Services" scroll={true}>Services</Link>
                     </li>
                     <li>
-                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium border-b-2 transition-all duration-300 ease-linear pb-1 border-transparent hover:border-[#1f436e] border-solid  ${isActiveSection === 'resume' ? 'text-[#1f436e] border-[#1f436e]' : 'text-gray-600' }`} href="/#resume" rel="Resume" title="Resume" scroll={true}>Resume</Link>
+                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'resume' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#resume" rel="Resume" title="Resume" scroll={true}>Resume</Link>
                     </li>
                     <li>
-                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium border-b-2 transition-all duration-300 ease-linear pb-1 border-transparent hover:border-[#1f436e] border-solid  ${isActiveSection === 'projects' ? 'text-[#1f436e] border-[#1f436e]' : 'text-gray-600' }`} href="/#projects" rel="Projects" title="Projects" scroll={true}>Projects</Link>
+                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'projects' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#projects" rel="Projects" title="Projects" scroll={true}>Projects</Link>
                     </li>
                     <li>
-                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium border-b-2 transition-all duration-300 ease-linear pb-1 border-transparent hover:border-[#1f436e] border-solid  ${isActiveSection === 'contact' ? 'text-[#1f436e] border-[#1f436e]' : 'text-gray-600' }`} href="/#contact" rel="Contact" title="Contact" scroll={true}>Contact</Link>
+                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'contact' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#contact" rel="Contact" title="Contact" scroll={true}>Contact</Link>
                     </li>
                 </ul>
 

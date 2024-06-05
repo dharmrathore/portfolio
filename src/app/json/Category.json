@@ -33,6 +33,20 @@
       "category": "Branding",
       "title": "Appy pie",
       "description": "App Builder Design"
+    },
+    {
+      "id": "6",
+      "image": "../images/portfolio_2.png",
+      "category": "Website",
+      "title": "Website",
+      "description": "Media Design"
+    },
+    {
+      "id": "7",
+      "image": "../images/portfolio_3.png",
+      "category": "Website",
+      "title": "Website",
+      "description": "Fitness Design"
     }
 ]
   

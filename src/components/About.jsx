@@ -25,7 +25,7 @@ const About = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" rel='Linkedin' className='border rounded-md w-10 h-10 items-center justify-center flex hover:bg-[#1f436e] hover:text-white hover:shadow-lg'>
+                            <Link target='_blank' href="https://www.linkedin.com/in/dharmendra-rathore-0168aa105/" rel='Linkedin' className='border rounded-md w-10 h-10 items-center justify-center flex hover:bg-[#1f436e] hover:text-white hover:shadow-lg'>
                                 <span dangerouslySetInnerHTML={{__html: iconsSvg.linkedinIcon}} />
                             </Link>
                         </li>

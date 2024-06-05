@@ -23,6 +23,10 @@ const tabsButton = [
     {
         id: '5',
         name: 'Marketing',
+    },
+    {
+        id: '6',
+        name: 'Website',
     }
 ]
 
