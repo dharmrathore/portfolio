@@ -1,4 +1,5 @@
 import { iconsSvg } from '@/app/utils/Iconsvg'
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -17,14 +18,14 @@ const Footer = () => {
                                     <span className='text-xl theme-color' dangerouslySetInnerHTML={{__html: iconsSvg.phoneIcon}} />
                                     <div  className='flex flex-col gap-1'>
                                         <h3 className='text-base font-semibold'>Contact Number:</h3>
-                                        <p className='text-sm'>+91 7531836471</p>
+                                        <a href="tel:+91 7531836471" className='text-sm'>+91 7531836471</a>
                                     </div>
                                 </li>
                                 <li className='flex items-baseline gap-3 mb-4 flex-col'>
                                     <span className='text-xl theme-color' dangerouslySetInnerHTML={{__html: iconsSvg.emailIcon}} />
                                     <div className='flex flex-col gap-1'>
                                         <h3 className='text-base font-semibold'>Email Us:</h3>
-                                        <p className='text-sm'>dharm.rathore90@gmail.com</p>
+                                        <a href='mailto:rathore.dharm90@gmail.com' className='text-sm'>rathore.dharm90@gmail.com</a>
                                     </div>
                                 </li>
                             </ul>
@@ -46,7 +47,7 @@ const Footer = () => {
                                     <label className='mb-2 inline-block text-sm md:text-base' htmlFor="Your Message">Your Message</label>
                                     <textarea name="message" id="message" rows={4} className='text-sm md:text-base w-full border p-3 rounded-lg theme-colorr' placeholder='Write Your Message...' required></textarea>
                                 </div>
-                                <button type='submit' className="p-3 text-sm md:text-base md:p-4 border bg-[#1f436e] text-white transition-all flex items-center gap-1 rounded-md hover:shadow-lg hover:opacity-90">
+                                <button type='submit' className="p-3 text-sm md:text-base md:p-4 border bg-[#1f436e] bg-gradient-to-r  hover:from-pink-500 hover:to-violet-500 text-white transition-all flex items-center gap-1 rounded-md hover:shadow-lg hover:opacity-90">
                                     Send Me Message
                                 </button>
                                 </form>

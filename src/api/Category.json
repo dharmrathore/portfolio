@@ -1,48 +1,48 @@
 [
     {
-      "id": "1",
-      "image": "https://kane-portfolio-react.vercel.app/assets/work1-eC3ZTYBG.jpeg",
+      "id": 1,
+      "image": "./images/portfolio_2.png",
       "category": "Marketing",
       "title": "Marketing",
       "description": "Mobile Application Design"
     },
     {
-      "id": "2",
-      "image": "https://kane-portfolio-react.vercel.app/assets/work2-C47jTI94.jpeg",
+      "id": 2,
+      "image": "./images/portfolio_2.png",
       "category": "Game",
       "title": "Game",
       "description": "Website Makeup Design"
     },
     {
-      "id": "3",
-      "image": "https://kane-portfolio-react.vercel.app/assets/work3-CEBCiavM.jpeg",
+      "id": 3,
+      "image": "./images/portfolio_2.png",
       "category": "Branding",
       "title": "Branding",
       "description": "Brand Identity and Motion Design"
     },
     {
-      "id": "4",
-      "image": "https://kane-portfolio-react.vercel.app/assets/work4-Ch9cXqtC.jpeg",
+      "id": 4,
+      "image": "./images/portfolio_3.png",
       "category": "Design",
       "title": "Marketing",
       "description": "Mobile Application Design"
     },
     {
-      "id": "5",
-      "image": "https://kane-portfolio-react.vercel.app/assets/work3-CEBCiavM.jpeg",
+      "id": 5,
+      "image": "./images/portfolio_2.png",
       "category": "Branding",
       "title": "Appy pie",
       "description": "App Builder Design"
     },
     {
-      "id": "6",
+      "id": 6,
       "image": "../images/portfolio_2.png",
       "category": "Website",
       "title": "Website",
       "description": "Media Design"
     },
     {
-      "id": "7",
+      "id": 7,
       "image": "../images/portfolio_3.png",
       "category": "Website",
       "title": "Website",

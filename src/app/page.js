@@ -17,21 +17,21 @@ export default function Home() {
 				<HeroBanner/>
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
-			<About/>
+				<About/>
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
-			<Services/>
+				<Services/>
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
-			<Resume/>
+				<Resume/>
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
-			<Projects props={{title:'WORKS'}}/>
+				<Projects/>
 			</Suspense>
 			
 		</main>
 		<Suspense fallback={<p>Loading...</p>}>
-		<Footer/>
+			<Footer/>
 		</Suspense>
 		
 		

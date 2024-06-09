@@ -30,7 +30,7 @@ const About = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" rel='web' className='border rounded-md w-10 h-10 items-center justify-center flex hover:bg-[#1f436e] hover:text-white hover:shadow-lg'>
+                            <Link target='_blank' href="https://visakwik.com/" rel='web' className='border rounded-md w-10 h-10 items-center justify-center flex hover:bg-[#1f436e] hover:text-white hover:shadow-lg'>
                                 <span dangerouslySetInnerHTML={{__html: iconsSvg.webIcon}} />
                             </Link>
                         </li>
@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 <div className='w-full md:w-8/12 p-0 md:p-10 mt-4 md:mt-0'>
                     <h2 className='text-xl md:text-3xl lg:text-5xl mb-6'>Hello, I'm Dharmendra Rathore,<span className='text-[#1f436e] '> Senior UI Developer</span> Based in India.</h2>
-                    <Link href="/resume/dharmendra_resume.pdf" target='_blank' className='p-4 border bg-[#1f436e] text-white transition-all inline-flex items-center gap-1 rounded-md hover:shadow-lg hover:opacity-90'>
+                    <Link href="/resume/dharmendra_resume.pdf" target='_blank' className='p-4 border bg-[#1f436e] bg-gradient-to-r text-white transition-all inline-flex items-center gap-1 rounded-md hover:from-pink-500 hover:to-violet-500 hover:shadow-lg hover:opacity-90'>
                         Download CV 
                         <span className='animate-pulse' dangerouslySetInnerHTML={{__html: iconsSvg.downloadIcon}}/>
                     </Link>
