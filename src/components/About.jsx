@@ -12,7 +12,7 @@ const About = () => {
         <section className='w-full md:py-5' id='about'>
             <div className='max-w-7xl mx-auto px-4 flex items-center flex-wrap md:flex-row'>
                 <div className='w-full md:w-4/12 flex flex-col gap-4 border rounded-lg p-4 md:p-10'>
-                    <Image src={profilepic} alt="" className='max-w-full h-auto'/>
+                    <Image src={profilepic} alt={profilepic} className='max-w-full h-auto'/>
                     <h2 className='text-xl md:text-2xl text-center theme-color'>Dharmendra Rathore</h2>
                     <div className='border rounded-3xl text-center py-2 px-5 inline-flex items-center gap-2 justify-center mx-auto'>
                         <p className='text-sm md:text-base'>Available for Work</p>

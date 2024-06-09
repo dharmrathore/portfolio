@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import tabsContentData from '../../src/app/json/Category.json';
+import tabsContentData from '../api/Category.json';
 
 const tabsButton = [
   { id: '1', name: 'All' },
@@ -11,7 +11,7 @@ const tabsButton = [
   { id: '6', name: 'Website' }
 ];
 
-const Projects = () => {
+const Projects = ({props}) => {
   const [isActive, setIsActive] = useState(tabsButton[0].id);
 
   const handleActiveTabs = (id) => {
@@ -25,7 +25,7 @@ const Projects = () => {
       <section className='w-full md:py-5' id='projects'>
         <div className='max-w-7xl mx-auto px-4'>
           <div className='text-center py-4 w-full md:mb-4'>
-            <h2 className='text-sm mb-2 md:mb-4'>WORKS</h2>
+            <h2 className='text-sm mb-2 md:mb-4'>{props.title}</h2>
             <h3 className='text-xl md:text-3xl font-semibold theme-color'>Creative Portfolio</h3>
           </div>
           <ul className='flex items-center gap-3 justify-start text-sm md:text-base mb-5 md:mb-8 overscroll-auto overflow-x-auto'>
@@ -38,7 +38,7 @@ const Projects = () => {
             ))}
           </ul>
 
-          <div className='tabs'>
+          <div className='tabs pb-10'>
             <div className='gap-4 flex-wrap grid md:grid-cols-2 lg:grid-cols-4 transition-all duration-500'>
               {filteredContent.map((data, index) => (
                 <div className='flex flex-col gap-3 p-4 border rounded-md transition-all duration-500 transform hover:shadow-lg hover:scale-105' key={index}>

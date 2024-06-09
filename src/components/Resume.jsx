@@ -57,10 +57,10 @@ const Resume = () => {
                 </div>
                 <div className="mt-4 md:mt-7 pb-4">
                     <div  className='grid grid-cols-1 md:grid-cols-2 gap-4 '>
-                        <ul className='flex p-4 md:p-10 gap-4 border border-solid border-gray-300 rounded-lg flex-col'> 
+                        <ul className='flex p-4 md:p-10 gap-4 border border-solid border-gray-300 rounded-lg flex-col bg-white'> 
                             {resumeweb.map((item, index) => (
                                 <li className='flex gap-4 py-4 md:py-7 items-start  border-b border-b-solid border-b-gray-300 last:border-0' key={item.id}>
-                                    <div className='rounded-lg bg-white w-10 h-10 text-[#1f436e] flex items-center justify-center flex-grow-0 flex-shrink-0'>
+                                    <div className='rounded-lg bg-gray-50 w-10 h-10 text-[#1f436e] flex items-center justify-center flex-grow-0 flex-shrink-0'>
                                         <span dangerouslySetInnerHTML={{__html: iconsSvg.resumeIcon}}/>
                                     </div>
                                 
@@ -73,10 +73,10 @@ const Resume = () => {
                                 
                             ))}
                         </ul>
-                        <ul className='flex p-5 md:p-10 gap-4 border border-solid border-gray-300 rounded-lg flex-col'> 
+                        <ul className='flex p-5 md:p-10 gap-4 border border-solid border-gray-300 rounded-lg flex-col bg-white'> 
                             {resumeinfo.map((item, index) => (
                                 <li className='flex gap-4 py-4 md:py-7 items-start  border-b border-b-solid border-b-gray-300 last:border-0' key={item.id}>
-                                    <div className='rounded-lg bg-white w-10 h-10 text-[#1f436e] flex items-center justify-center flex-grow-0 flex-shrink-0'>
+                                    <div className='rounded-lg bg-gray-50 w-10 h-10 text-[#1f436e] flex items-center justify-center flex-grow-0 flex-shrink-0'>
                                         <span dangerouslySetInnerHTML={{__html: iconsSvg.resumeIcon}}/>
                                     </div>
                                 

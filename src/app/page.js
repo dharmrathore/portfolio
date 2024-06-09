@@ -25,7 +25,9 @@ export default function Home() {
 			<Suspense fallback={<p>Loading...</p>}>
 			<Resume/>
 			</Suspense>
-			<Suspense fallback={<p>Loading...</p>}><Projects/></Suspense>
+			<Suspense fallback={<p>Loading...</p>}>
+			<Projects props={{title:'WORKS'}}/>
+			</Suspense>
 			
 		</main>
 		<Suspense fallback={<p>Loading...</p>}>
