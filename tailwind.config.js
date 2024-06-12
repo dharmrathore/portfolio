@@ -11,9 +11,18 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundPosition: {
+        'top-100': 'top 100%',
+        'left-100': 'left 100%',
+      },
       textColor: {
         'color': '#1f436e'
       },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundPosition: ['group-hover'],
     },
   },
   plugins: [],

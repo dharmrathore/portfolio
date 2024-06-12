@@ -1,49 +1,49 @@
 [
     {
       "id": 1,
-      "image": "./images/portfolio_2.png",
+      "image": "./images/portfolio_12.png",
       "category": "Marketing",
       "title": "Marketing",
       "description": "Mobile Application Design"
     },
     {
       "id": 2,
-      "image": "./images/portfolio_2.png",
+      "image": "./images/portfolio_13.png",
       "category": "Game",
       "title": "Game",
       "description": "Website Makeup Design"
     },
     {
       "id": 3,
-      "image": "./images/portfolio_2.png",
+      "image": "./images/portfolio_14.png",
       "category": "Branding",
       "title": "Branding",
       "description": "Brand Identity and Motion Design"
     },
     {
       "id": 4,
-      "image": "./images/portfolio_3.png",
+      "image": "./images/portfolio_15.png",
       "category": "Design",
       "title": "Marketing",
       "description": "Mobile Application Design"
     },
     {
       "id": 5,
-      "image": "./images/portfolio_2.png",
+      "image": "./images/portfolio_16.png",
       "category": "Branding",
       "title": "Appy pie",
       "description": "App Builder Design"
     },
     {
       "id": 6,
-      "image": "../images/portfolio_2.png",
+      "image": "../images/portfolio_17.png",
       "category": "Website",
       "title": "Website",
       "description": "Media Design"
     },
     {
       "id": 7,
-      "image": "../images/portfolio_3.png",
+      "image": "../images/portfolio_18.png",
       "category": "Website",
       "title": "Website",
       "description": "Fitness Design"
