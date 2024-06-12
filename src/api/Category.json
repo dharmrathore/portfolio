@@ -9,8 +9,8 @@
 	{
 		"id": 2,
 		"image": "./images/portfolio_13.png",
-		"category": "Game",
-		"title": "Game",
+		"category": "Templates",
+		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
@@ -58,8 +58,8 @@
 	{
 		"id": 9,
 		"image": "./images/portfolio_20.png",
-		"category": "Game",
-		"title": "Game",
+		"category": "Templates",
+		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
@@ -107,8 +107,8 @@
 	{
 		"id": 16,
 		"image": "./images/portfolio_27.png",
-		"category": "Game",
-		"title": "Game",
+		"category": "Templates",
+		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
@@ -156,8 +156,8 @@
 	{
 		"id": 23,
 		"image": "./images/portfolio_34.png",
-		"category": "Game",
-		"title": "Game",
+		"category": "Templates",
+		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
@@ -205,8 +205,8 @@
 	{
 		"id": 30,
 		"image": "./images/portfolio_41.png",
-		"category": "Game",
-		"title": "Game",
+		"category": "Templates",
+		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
@@ -333,7 +333,7 @@
 		"image": "./images/portfolio_59.png",
 		"category": "Branding",
 		"title": "Appy pie",
-		"description": "App Builder Design"
+		"description": "App Builder Design template"
 	},
 	{
 		"id": 43,
@@ -375,7 +375,7 @@
 		"image": "./images/portfolio_65.png",
 		"category": "Branding",
 		"title": "Appy pie",
-		"description": "App Builder Design"
+		"description": "App Builder Design template"
 	},
 	{
 		"id": 49,
@@ -418,6 +418,27 @@
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
+	},
+	{
+		"id": 55,
+		"image": "../images/brand_01.png",
+		"category": "Branding",
+		"title": "Appypie Connect",
+		"description": "Integration Design"
+	},
+	{
+		"id": 56,
+		"image": "../images/brand_02.png",
+		"category": "Branding",
+		"title": "Appypie Chatbot",
+		"description": "Widget application"
+	},
+	{
+		"id": 56,
+		"image": "../images/brand_03.png",
+		"category": "Branding",
+		"title": "Visakwik",
+		"description": "Visa type application"
 	}
 
 ]

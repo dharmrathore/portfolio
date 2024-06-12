@@ -5,7 +5,7 @@ import tabsContentData from '../api/Category.json';
 const tabsButton = [
 	{ id: 1, name: 'All' },
 	{ id: 2, name: 'Design' },
-	{ id: 3, name: 'Game' },
+	{ id: 3, name: 'Templates' },
 	{ id: 4, name: 'Branding' },
 	{ id: 5, name: 'Marketing' },
 	{ id: 6, name: 'Website' }
