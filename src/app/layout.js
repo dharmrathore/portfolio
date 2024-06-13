@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-	title: "My Portfolio Rathore",
+	title: "My Portfolio Dharmendra  Rathore",
 	description: "UI Development Library for Google",
 };
 
