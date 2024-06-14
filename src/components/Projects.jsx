@@ -58,7 +58,7 @@ const Projects = () => {
 								filteredContent.map((data, index) => (
 									<div key={index} className='flex flex-col gap-3 p-4 border rounded-md ease-in transition-all duration-500 transform hover:shadow-lg hover:scale-105 group'>
 										<div className='block w-full h-60 bg-cover group-hover:bg-top-100 group-hover:bg-left-100 bg-left-top bg-no-repeat overflow-hidden transition-all duration-500 ease-in  opacity-70 hover:opacity-100' style={{ backgroundImage: `url(${data.image})` }}></div>
-										<div className='flex flex-col gap-2 bg-gray-200 p-3 h-[120px] justify-center'>
+										<div className='flex flex-col gap-2 bg-gray-200 p-3 md:h-[120px] justify-center'>
 											<h4 className='text-base md:text-lg font-bold theme-color'>{data.title}</h4>
 											<p className='text-sm md:text-base'>{data.description}</p>
 										</div>
