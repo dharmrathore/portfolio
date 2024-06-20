@@ -59,7 +59,7 @@ const Footer = () => {
                    
                 </div>
                 <div className='text-center my-4 py-2 mt-10'>
-                        <p className='text-xs'>Copyright @2024,<span className='theme-color'> Dev Rathore</span> All Rights Reserved.</p>
+                        <p className='text-xs'>&copy; 2024, Designed and Developed by <span className='theme-color'> Dev Rathore</span> All Rights Reserved.</p>
                     </div>
             </footer>
         </>

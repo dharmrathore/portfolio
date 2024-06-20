@@ -80,6 +80,9 @@ const Header = () => {
                     </li>
                     <li>
                         <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'contact' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#contact" rel="Contact" title="Contact" scroll={true}>Contact</Link>
+                    </li> 
+                    <li>
+                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'contact' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} target='_blank' href="https://layermatrix.com/" rel="layer Matrix" title="layer Matrix" scroll={true}>layer Matrix</Link>
                     </li>
                 </ul>
 
