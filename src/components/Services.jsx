@@ -21,27 +21,44 @@ const Services = () => {
                         <h2 className='text-sm mb-2 md:mb-4'>SERVICES</h2>
                         <h3 className='text-xl md:text-3xl font-semibold text-[#1f436e]'>Quality Services</h3>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full md:my-10'>
-                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2 wow fadeInUp animate__fadeInUp' >
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full md:my-10'>
+                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2  shadow-2xl' >
                             <div className='w-16 h-16 text-[#1f436e]'>
                                 <span dangerouslySetInnerHTML={{ __html: iconsSvg.brandIcon }} />
                             </div>
-                            <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>Brand Identity Design</h3>
-                            <p>We specialize in creating unique brand identities that resonate with your target audience.</p>
+                            <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>Branding Design</h3>
+                            
                         </div>
-                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2 wow fadeInUp animate__fadeInUp'>
+                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2  shadow-2xl'>
                             <div className='w-16 h-16 text-[#1f436e]'>
                                 <span dangerouslySetInnerHTML={{ __html: iconsSvg.websiteIcon }} />
                             </div>
-                            <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>Website Design</h3>
-                            <p>We specialize in creating visually stunning, user-friendly websites that drive engagement and conversions.</p>
+                            <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>Web Responsive Mobile</h3>
+                          
                         </div>
-                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2 wow fadeInUp animate__fadeInUp'>
+                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2  shadow-2xl'>
                             <div className='w-16 h-16 text-[#1f436e]'>
                                 <span dangerouslySetInnerHTML={{ __html: iconsSvg.applicationIcon }} />
                             </div>
                             <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>Innovative Application Design</h3>
-                            <p>We specialize in creating intuitive, visually appealing apps for mobile and web platforms.</p>
+                        </div>
+                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2  shadow-2xl'>
+                            <div className='w-16 h-16 text-[#1f436e]'>
+                                <span dangerouslySetInnerHTML={{ __html: iconsSvg.developerIcon }} />
+                            </div>
+                            <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>Web Developer</h3>
+                        </div>
+                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2  shadow-2xl'>
+                            <div className='w-16 h-16 text-[#1f436e]'>
+                                <span dangerouslySetInnerHTML={{ __html: iconsSvg.strategyIcon }} />
+                            </div>
+                            <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>Product Strategy</h3>
+                        </div>
+                        <div className='flex flex-col gap-4 items-center bg-gray-50 bg-gradient-to-tl border-b-4 border-b-[#1f436e] text-center transition-all rounded-lg border border-transparent  hover:shadow-lg p-4 duration-300 md:p-8 hover:-translate-y-2  shadow-2xl'>
+                            <div className='w-16 h-16 text-[#1f436e]'>
+                                <span dangerouslySetInnerHTML={{ __html: iconsSvg.seoIcon }} />
+                            </div>
+                            <h3 className='text-base md:text-lg font-semibold text-[#1f436e]'>SEO Optimize</h3>
                         </div>
                     </div>
                 </div>

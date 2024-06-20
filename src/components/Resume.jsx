@@ -13,14 +13,14 @@ const resumeweb = [
     {
         id: '2',
         years: '2017 - 2019',
-        title: 'UI Developer',
+        title: 'Junior UI Developer',
         company: 'Olive e-Business Pvt. Ltd',
     },
     {
         id: '3',
         years: '2016 - 2017',
-        title: 'Web Designer',
-        company: 'Olive e-Business Pvt. Ltd',
+        title: 'UI Developer',
+        company: 'IDC Technologies Solutions India Pvt. Ltd.',
     }, 
 ];
 

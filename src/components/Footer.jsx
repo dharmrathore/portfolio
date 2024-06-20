@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-wrap md:flex-row gap-4 md:gap-0 justify-between h-full">
                         <div className="basis-full md:basis-1/3">
-                            <ul className='p-4 md:p-10 bg-gray-300 rounded-lg flex flex-col gap-4 h-full justify-center'>
+                            <ul className='p-4 md:p-10 bg-gray-100 rounded-lg flex flex-col gap-4 h-full justify-center border border-stone-200'>
                                 <li className='flex items-baseline gap-3 mb-4 flex-col'>
                                     <span className='text-xl theme-color' dangerouslySetInnerHTML={{__html: iconsSvg.phoneIcon}} />
                                     <div  className='flex flex-col gap-1'>
