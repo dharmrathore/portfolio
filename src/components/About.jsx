@@ -30,7 +30,7 @@ const About = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link target='_blank' href="https://visakwik.com/" rel='web' className='border rounded-md w-10 h-10 items-center justify-center flex hover:bg-[#1f436e] hover:text-white hover:shadow-lg'>
+                            <Link title='visakwik' target='_blank' href="https://visakwik.com/" rel='web' className='border rounded-md w-10 h-10 items-center justify-center flex hover:bg-[#1f436e] hover:text-white hover:shadow-lg'>
                                 <span dangerouslySetInnerHTML={{__html: iconsSvg.webIcon}} />
                             </Link>
                         </li>

@@ -12,7 +12,7 @@ export default function Home() {
     <div className="wrapper-site relative">
 		<Header/>
 		
-		<main className=" w-full relative flex place-items-center mt-16 gap-4 md:gap-10 pt-12 flex-col">
+		<main className=" w-full relative flex place-items-center gap-4 md:gap-10 pt-12 flex-col">
 			<Suspense fallback={<p>Loading...</p>}>
 				<HeroBanner/>
 			</Suspense>
