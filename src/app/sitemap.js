@@ -1,37 +1,37 @@
 export default function sitemap() {
     return [
         {
-            url: 'http://localhost:3000/#home',
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}#home`,
             lastModified: new Date(),
             changeFrequency: 'yearly',
             priority: 1,
         },
         {
-            url: 'http://localhost:3000/#about',
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}#about`,
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.8,
         },
         {
-            url: 'http://localhost:3000/#services',
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}#services`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.5,
         },
         {
-            url: 'http://localhost:3000/#resume',
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}#resume`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.5,
         },
         {
-            url: 'http://localhost:3000/#projects',
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}#projects`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.5,
         },
         {
-            url: 'http://localhost:3000/#contact',
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}#contact`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.5,
