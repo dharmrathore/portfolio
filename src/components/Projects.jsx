@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import tabsContentData from '../api/Category.json';
 import Loader from './Loader';
+import Image from 'next/image';
 
 const tabsButton = [
 	{ id: 1, name: 'All' },
@@ -57,7 +58,9 @@ const Projects = () => {
 							) : (
 								filteredContent.map((data, index) => (
 									<div key={index} className='flex flex-col gap-3 p-4 border rounded-md ease-in transition-all duration-500 transform hover:shadow-lg hover:scale-105 group'>
-										<div className='block w-full h-60 bg-cover group-hover:bg-top-100 group-hover:bg-left-100 bg-left-top bg-no-repeat overflow-hidden transition-all duration-500 ease-in  opacity-70 hover:opacity-100' style={{ backgroundImage: `url(${data.image})` }}></div>
+										<div className='block w-full h-60 bg-cover group-hover:bg-top-100 group-hover:bg-left-100 bg-left-top bg-no-repeat overflow-hidden transition-all duration-500 ease-in  opacity-70 hover:opacity-100' >
+											<Image src={data.image} alt={data.image} width={100} height={100} className='w-full h-auto'/>
+										</div>
 										<div className='flex flex-col gap-2 bg-gray-200 p-3 md:h-[120px] justify-center'>
 											<h4 className='text-base md:text-lg font-bold theme-color'>{data.title}</h4>
 											<p className='text-sm md:text-base'>{data.description}</p>

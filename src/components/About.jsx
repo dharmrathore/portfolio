@@ -11,7 +11,7 @@ const About = () => {
         <>
         <section className='w-full md:py-5' id='about'>
             <div className='max-w-7xl mx-auto px-4 flex items-center flex-wrap md:flex-row'>
-                <div className='w-full md:w-4/12 flex flex-col gap-4 border rounded-lg p-4 md:p-10'>
+                <div className='w-full md:w-4/12 flex flex-col gap-4 border rounded-lg p-4 md:p-10 shadow-xl'>
                     {/* <Image src={profilepic} alt={profilepic} className='max-w-full h-auto'/> */}
 
                     <Image src="/images/rathore.jpg" alt='' width={640} height={840} />
