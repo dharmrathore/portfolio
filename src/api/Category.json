@@ -1,441 +1,441 @@
 [
 	{
 		"id": 1,
-		"image": "/images/portfolio_12.png",
+		"image": "/images/portfolio_12.jpg",
 		"category": "Marketing",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 2,
-		"image": "/images/portfolio_13.png",
+		"image": "/images/portfolio_13.jpg",
 		"category": "Templates",
 		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
 		"id": 3,
-		"image": "/images/portfolio_14.png",
+		"image": "/images/portfolio_14.jpg",
 		"category": "Branding",
 		"title": "Branding",
 		"description": "Brand Identity and Motion Design"
 	},
 	{
 		"id": 4,
-		"image": "/images/portfolio_15.png",
+		"image": "/images/portfolio_15.jpg",
 		"category": "Design",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 5,
-		"image": "/images/portfolio_16.png",
+		"image": "/images/portfolio_16.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 6,
-		"image": "/images/portfolio_17.png",
+		"image": "/images/portfolio_17.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 7,
-		"image": "/images/portfolio_18.png",
+		"image": "/images/portfolio_18.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 8,
-		"image": "/images/portfolio_19.png",
+		"image": "/images/portfolio_19.jpg",
 		"category": "Marketing",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 9,
-		"image": "/images/portfolio_20.png",
+		"image": "/images/portfolio_20.jpg",
 		"category": "Templates",
 		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
 		"id": 10,
-		"image": "/images/portfolio_21.png",
+		"image": "/images/portfolio_21.jpg",
 		"category": "Branding",
 		"title": "Branding",
 		"description": "Brand Identity and Motion Design"
 	},
 	{
 		"id": 11,
-		"image": "/images/portfolio_22.png",
+		"image": "/images/portfolio_22.jpg",
 		"category": "Design",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 12,
-		"image": "/images/portfolio_23.png",
+		"image": "/images/portfolio_23.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 13,
-		"image": "/images/portfolio_24.png",
+		"image": "/images/portfolio_24.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 14,
-		"image": "/images/portfolio_25.png",
+		"image": "/images/portfolio_25.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 15,
-		"image": "/images/portfolio_26.png",
+		"image": "/images/portfolio_26.jpg",
 		"category": "Marketing",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 16,
-		"image": "/images/portfolio_27.png",
+		"image": "/images/portfolio_27.jpg",
 		"category": "Templates",
 		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
 		"id": 17,
-		"image": "/images/portfolio_28.png",
+		"image": "/images/portfolio_28.jpg",
 		"category": "Branding",
 		"title": "Branding",
 		"description": "Brand Identity and Motion Design"
 	},
 	{
 		"id": 18,
-		"image": "/images/portfolio_29.png",
+		"image": "/images/portfolio_29.jpg",
 		"category": "Design",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 19,
-		"image": "/images/portfolio_30.png",
+		"image": "/images/portfolio_30.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 20,
-		"image": "/images/portfolio_31.png",
+		"image": "/images/portfolio_31.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 21,
-		"image": "/images/portfolio_32.png",
+		"image": "/images/portfolio_32.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 22,
-		"image": "/images/portfolio_33.png",
+		"image": "/images/portfolio_33.jpg",
 		"category": "Marketing",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 23,
-		"image": "/images/portfolio_34.png",
+		"image": "/images/portfolio_34.jpg",
 		"category": "Templates",
 		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
 		"id": 24,
-		"image": "/images/portfolio_35.png",
+		"image": "/images/portfolio_35.jpg",
 		"category": "Branding",
 		"title": "Branding",
 		"description": "Brand Identity and Motion Design"
 	},
 	{
 		"id": 25,
-		"image": "/images/portfolio_36.png",
+		"image": "/images/portfolio_36.jpg",
 		"category": "Design",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 26,
-		"image": "/images/portfolio_37.png",
+		"image": "/images/portfolio_37.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 27,
-		"image": "/images/portfolio_38.png",
+		"image": "/images/portfolio_38.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 28,
-		"image": "/images/portfolio_39.png",
+		"image": "/images/portfolio_39.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 29,
-		"image": "/images/portfolio_40.png",
+		"image": "/images/portfolio_40.jpg",
 		"category": "Marketing",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 30,
-		"image": "/images/portfolio_41.png",
+		"image": "/images/portfolio_41.jpg",
 		"category": "Templates",
 		"title": "Templates",
 		"description": "Website Makeup Design"
 	},
 	{
 		"id": 31,
-		"image": "/images/portfolio_42.png",
+		"image": "/images/portfolio_42.jpg",
 		"category": "Branding",
 		"title": "Branding",
 		"description": "Brand Identity and Motion Design"
 	},
 	{
 		"id": 32,
-		"image": "/images/portfolio_43.png",
+		"image": "/images/portfolio_43.jpg",
 		"category": "Design",
 		"title": "Marketing",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 33,
-		"image": "/images/portfolio_44.png",
+		"image": "/images/portfolio_44.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 34,
-		"image": "/images/portfolio_45.png",
+		"image": "/images/portfolio_45.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 35,
-		"image": "/images/portfolio_46.png",
+		"image": "/images/portfolio_46.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 33,
-		"image": "/images/portfolio_47.png",
+		"image": "/images/portfolio_47.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 34,
-		"image": "/images/portfolio_48.png",
+		"image": "/images/portfolio_48.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 35,
-		"image": "/images/portfolio_49.png",
+		"image": "/images/portfolio_49.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 33,
-		"image": "/images/portfolio_50.png",
+		"image": "/images/portfolio_50.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 34,
-		"image": "/images/portfolio_51.png",
+		"image": "/images/portfolio_51.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 35,
-		"image": "/images/portfolio_52.png",
+		"image": "/images/portfolio_52.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 36,
-		"image": "/images/portfolio_53.png",
+		"image": "/images/portfolio_53.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 37,
-		"image": "/images/portfolio_54.png",
+		"image": "/images/portfolio_54.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 38,
-		"image": "/images/portfolio_55.png",
+		"image": "/images/portfolio_55.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 39,
-		"image": "/images/portfolio_56.png",
+		"image": "/images/portfolio_56.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 40,
-		"image": "/images/portfolio_57.png",
+		"image": "/images/portfolio_57.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 41,
-		"image": "/images/portfolio_58.png",
+		"image": "/images/portfolio_58.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 42,
-		"image": "/images/portfolio_59.png",
+		"image": "/images/portfolio_59.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design template"
 	},
 	{
 		"id": 43,
-		"image": "/images/portfolio_60.png",
+		"image": "/images/portfolio_60.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 44,
-		"image": "/images/portfolio_61.png",
+		"image": "/images/portfolio_61.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 45,
-		"image": "/images/portfolio_62.png",
+		"image": "/images/portfolio_62.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 46,
-		"image": "/images/portfolio_63.png",
+		"image": "/images/portfolio_63.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 47,
-		"image": "/images/portfolio_64.png",
+		"image": "/images/portfolio_64.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 48,
-		"image": "/images/portfolio_65.png",
+		"image": "/images/portfolio_65.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design template"
 	},
 	{
 		"id": 49,
-		"image": "/images/portfolio_66.png",
+		"image": "/images/portfolio_66.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 50,
-		"image": "/images/portfolio_67.png",
+		"image": "/images/portfolio_67.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 51,
-		"image": "/images/portfolio_68.png",
+		"image": "/images/portfolio_68.jpg",
 		"category": "Branding",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
 	{
 		"id": 52,
-		"image": "/images/portfolio_69.png",
+		"image": "/images/portfolio_69.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Media Design"
 	},
 	{
 		"id": 53,
-		"image": "/images/portfolio_70.png",
+		"image": "/images/portfolio_70.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 54,
-		"image": "/images/portfolio_71.png",
+		"image": "/images/portfolio_71.jpg",
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
 	},
 	{
 		"id": 55,
-		"image": "/images/brand_01.png",
+		"image": "/images/brand_01.jpg",
 		"category": "Branding",
 		"title": "Appypie Connect",
 		"description": "Integration Design"
 	},
 	{
 		"id": 56,
-		"image": "/images/brand_02.png",
+		"image": "/images/brand_02.jpg",
 		"category": "Branding",
 		"title": "Appypie Chatbot",
 		"description": "Widget application"
 	},
 	{
 		"id": 56,
-		"image": "/images/brand_03.png",
+		"image": "/images/brand_03.jpg",
 		"category": "Branding",
 		"title": "Visakwik",
 		"description": "Visa type application"
