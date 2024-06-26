@@ -1,5 +1,34 @@
 [
 	{
+		"id": 58,
+		"image": "/images/layermatrix.jpg",
+		"category": "Branding",
+		"title": "Layer Matrix",
+		"description": "Welcome to Layer Matrix - Explore Technology, Business, Lifestyle, and More"
+	},
+	{
+		"id": 56,
+		"image": "/images/brand_03.jpg",
+		"category": "Branding",
+		"title": "Visakwik",
+		"description": "Visa type application"
+	},
+	{
+		"id": 55,
+		"image": "/images/brand_01.jpg",
+		"category": "Branding",
+		"title": "Appypie Connect",
+		"description": "Integration Design"
+	},
+	{
+		"id": 57,
+		"image": "/images/brand_02.jpg",
+		"category": "Branding",
+		"title": "Appypie Chatbot",
+		"description": "Widget application"
+	},
+	
+	{
 		"id": 1,
 		"image": "/images/portfolio_12.jpg",
 		"category": "Marketing",
@@ -418,27 +447,7 @@
 		"category": "Website",
 		"title": "Website",
 		"description": "Fitness Design"
-	},
-	{
-		"id": 55,
-		"image": "/images/brand_01.jpg",
-		"category": "Branding",
-		"title": "Appypie Connect",
-		"description": "Integration Design"
-	},
-	{
-		"id": 56,
-		"image": "/images/brand_02.jpg",
-		"category": "Branding",
-		"title": "Appypie Chatbot",
-		"description": "Widget application"
-	},
-	{
-		"id": 56,
-		"image": "/images/brand_03.jpg",
-		"category": "Branding",
-		"title": "Visakwik",
-		"description": "Visa type application"
 	}
+
 
 ]
