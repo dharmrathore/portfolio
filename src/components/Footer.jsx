@@ -28,6 +28,8 @@ const Footer = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
+                //preload: state,
+
                 body: JSON.stringify({
                     name: state.name,
                     email: state.email,
@@ -37,7 +39,8 @@ const Footer = () => {
             if(!response.ok){
                 throw new Error('Network response was not ok');
             }
-            // const data = await response.json();
+
+            const data = await response.json();
 
             alert('Email sent successfully!');
             
