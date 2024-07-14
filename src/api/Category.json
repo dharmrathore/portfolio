@@ -27,7 +27,13 @@
 		"title": "Appypie Chatbot",
 		"description": "Widget application"
 	},
-	
+	{
+		"id": 58,
+		"image": "/images/portfolio_72.jpg",
+		"category": "Branding",
+		"title": "Shiv Nadar School",
+		"description": "Shiv Nadar School RSS"
+	},
 	{
 		"id": 1,
 		"image": "/images/portfolio_12.jpg",
@@ -45,23 +51,23 @@
 	{
 		"id": 3,
 		"image": "/images/portfolio_14.jpg",
-		"category": "Branding",
-		"title": "Branding",
+		"category": "Templates",
+		"title": "Templates",
 		"description": "Brand Identity and Motion Design"
 	},
 	{
 		"id": 4,
 		"image": "/images/portfolio_15.jpg",
 		"category": "Design",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 5,
 		"image": "/images/portfolio_16.jpg",
-		"category": "Branding",
-		"title": "Appy pie",
-		"description": "App Builder Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates Design"
 	},
 	{
 		"id": 6,
@@ -81,36 +87,36 @@
 		"id": 8,
 		"image": "/images/portfolio_19.jpg",
 		"category": "Marketing",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 9,
 		"image": "/images/portfolio_20.jpg",
-		"category": "Templates",
-		"title": "Templates",
+		"category": "Design",
+		"title": "Design",
 		"description": "Website Makeup Design"
 	},
 	{
 		"id": 10,
 		"image": "/images/portfolio_21.jpg",
-		"category": "Branding",
-		"title": "Branding",
-		"description": "Brand Identity and Motion Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates Identity and Motion Design"
 	},
 	{
 		"id": 11,
 		"image": "/images/portfolio_22.jpg",
 		"category": "Design",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 12,
 		"image": "/images/portfolio_23.jpg",
-		"category": "Branding",
-		"title": "Appy pie",
-		"description": "App Builder Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates"
 	},
 	{
 		"id": 13,
@@ -130,7 +136,7 @@
 		"id": 15,
 		"image": "/images/portfolio_26.jpg",
 		"category": "Marketing",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
@@ -143,21 +149,21 @@
 	{
 		"id": 17,
 		"image": "/images/portfolio_28.jpg",
-		"category": "Branding",
-		"title": "Branding",
-		"description": "Brand Identity and Motion Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates Identity and Dev Design"
 	},
 	{
 		"id": 18,
 		"image": "/images/portfolio_29.jpg",
 		"category": "Design",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 19,
 		"image": "/images/portfolio_30.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
@@ -192,7 +198,7 @@
 	{
 		"id": 24,
 		"image": "/images/portfolio_35.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Branding",
 		"description": "Brand Identity and Motion Design"
 	},
@@ -200,13 +206,13 @@
 		"id": 25,
 		"image": "/images/portfolio_36.jpg",
 		"category": "Design",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 26,
 		"image": "/images/portfolio_37.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
@@ -228,7 +234,7 @@
 		"id": 29,
 		"image": "/images/portfolio_40.jpg",
 		"category": "Marketing",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
@@ -241,7 +247,7 @@
 	{
 		"id": 31,
 		"image": "/images/portfolio_42.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Branding",
 		"description": "Brand Identity and Motion Design"
 	},
@@ -249,14 +255,14 @@
 		"id": 32,
 		"image": "/images/portfolio_43.jpg",
 		"category": "Design",
-		"title": "Marketing",
+		"title": "Design",
 		"description": "Mobile Application Design"
 	},
 	{
 		"id": 33,
 		"image": "/images/portfolio_44.jpg",
-		"category": "Branding",
-		"title": "Appy pie",
+		"category": "Templates",
+		"title": "Templates",
 		"description": "App Builder Design"
 	},
 	{
@@ -276,9 +282,9 @@
 	{
 		"id": 33,
 		"image": "/images/portfolio_47.jpg",
-		"category": "Branding",
-		"title": "Appy pie",
-		"description": "App Builder Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates"
 	},
 	{
 		"id": 34,
@@ -297,9 +303,9 @@
 	{
 		"id": 33,
 		"image": "/images/portfolio_50.jpg",
-		"category": "Branding",
-		"title": "Appy pie",
-		"description": "App Builder Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates"
 	},
 	{
 		"id": 34,
@@ -318,9 +324,9 @@
 	{
 		"id": 36,
 		"image": "/images/portfolio_53.jpg",
-		"category": "Branding",
-		"title": "Appy pie",
-		"description": "App Builder Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates"
 	},
 	{
 		"id": 37,
@@ -339,9 +345,9 @@
 	{
 		"id": 39,
 		"image": "/images/portfolio_56.jpg",
-		"category": "Branding",
-		"title": "Appy pie",
-		"description": "App Builder Design"
+		"category": "Templates",
+		"title": "Templates",
+		"description": "Templates"
 	},
 	{
 		"id": 40,
@@ -360,7 +366,7 @@
 	{
 		"id": 42,
 		"image": "/images/portfolio_59.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Appy pie",
 		"description": "App Builder Design template"
 	},
@@ -381,7 +387,7 @@
 	{
 		"id": 45,
 		"image": "/images/portfolio_62.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
@@ -402,7 +408,7 @@
 	{
 		"id": 48,
 		"image": "/images/portfolio_65.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Appy pie",
 		"description": "App Builder Design template"
 	},
@@ -423,7 +429,7 @@
 	{
 		"id": 51,
 		"image": "/images/portfolio_68.jpg",
-		"category": "Branding",
+		"category": "Templates",
 		"title": "Appy pie",
 		"description": "App Builder Design"
 	},
