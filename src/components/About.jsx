@@ -96,7 +96,7 @@ const About = () => {
                         
                         <p className='text-gray-600 mb-8 text-lg'>
                             Passionate about creating beautiful and functional web experiences. 
-                            With over 7 years of experience in frontend development, I specialize in 
+                            With over 7.8 years of experience in frontend development, I specialize in 
                             building responsive, user-friendly interfaces using modern technologies.
                         </p>
 
