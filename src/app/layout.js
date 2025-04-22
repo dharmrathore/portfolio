@@ -1,6 +1,6 @@
-
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import ChatWidget from "@/components/ChatWidget";
 
 const montserrat = Montserrat({ 
 	weight: "500",
@@ -21,7 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={montserrat.className}>{children}</body>
+			<body className={montserrat.className}>
+				{children}
+				<ChatWidget />
+			</body>
 		</html>
   	);
 }

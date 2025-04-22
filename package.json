@@ -12,6 +12,7 @@
     "animate.css": "^4.1.1",
     "next": "14.2.3",
     "nodemailer": "^6.10.1",
+    "openai": "^4.95.1",
     "react": "^18",
     "react-dom": "^18",
     "wowjs": "^1.1.3"
