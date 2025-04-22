@@ -73,6 +73,9 @@ const Header = () => {
                         <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'services' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#services" rel="Services" title="Services" scroll={true}>Services</Link>
                     </li>
                     <li>
+                        <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'skills' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#skills" rel="Skills" title="Skills" scroll={true}>Skills</Link>
+                    </li>
+                    <li>
                         <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'resume' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#resume" rel="Resume" title="Resume" scroll={true}>Resume</Link>
                     </li>
                     <li>

@@ -5,6 +5,7 @@ import HeroBanner from "@/components/HeroBanner";
 import Projects from "@/components/Projects";
 import Resume from "@/components/Resume";
 import Services from "@/components/Services";
+import Skills from "@/components/Skills";
 import { Suspense } from "react";
 
 export default function Home() {
@@ -21,6 +22,9 @@ export default function Home() {
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
 				<Services/>
+			</Suspense>
+			<Suspense fallback={<p>Loading...</p>}>
+				<Skills/>
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
 				<Resume/>
