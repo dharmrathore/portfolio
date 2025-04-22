@@ -45,6 +45,7 @@ const ChatWidget = () => {
         setIsLoading(true);
 
         try {
+            console.log('Sending message to API...'); // Debug log
             const response = await fetch('/api/chat', {
                 method: 'POST',
                 headers: {
@@ -62,6 +63,7 @@ const ChatWidget = () => {
             });
 
             const data = await response.json();
+            console.log('API Response:', data); // Debug log
 
             if (!response.ok) {
                 throw new Error(data.error || 'Failed to get response');
@@ -74,13 +76,15 @@ const ChatWidget = () => {
                 timestamp: new Date()
             }]);
         } catch (error) {
-            console.error('Chat Error:', error);
-            let errorMessage = "I'm sorry, I'm having trouble connecting right now. ";
+            console.error('Detailed Chat Error:', {
+                message: error.message,
+                name: error.name,
+                stack: error.stack
+            }); // More detailed error logging
             
-            if (error.message.includes('API key')) {
-                errorMessage = "The AI service is not properly configured. Please contact the site administrator.";
-            } else if (error.message.includes('rate limit')) {
-                errorMessage = "The service is temporarily busy. Please try again in a moment.";
+            let errorMessage = error.message;
+            if (error.message.includes('Failed to fetch')) {
+                errorMessage = "Network error: Please check your internet connection.";
             }
             
             setMessages(prev => [...prev, {
