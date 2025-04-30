@@ -54,6 +54,8 @@ const Resume = () => {
                 <div className='py-4 text-center'>
                     <h2 className='text-sm mb-2 md:mb-4'>EXPERIENCE</h2>
                     <h3 className='text-xl md:text-3xl font-semibold text-[#1f436e]'>Professional Resume</h3>
+                    <div className='mt-4 w-24 h-1 bg-gradient-to-r from-blue-500 to-violet-500 mx-auto rounded-full'></div>
+
                 </div>
                 <div className="mt-4 md:mt-7 pb-4">
                     <div  className='grid grid-cols-1 md:grid-cols-2 gap-4 '>

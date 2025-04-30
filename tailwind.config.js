@@ -18,11 +18,27 @@ module.exports = {
       textColor: {
         'color': '#1f436e'
       },
+      animation: {
+        'progress': 'progress 1s ease-in-out forwards',
+      },
+      keyframes: {
+        progress: {
+          '0%': { width: '0%' },
+          '100%': { width: 'var(--progress)' },
+        },
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
+      }
     },
   },
   variants: {
     extend: {
       backgroundPosition: ['group-hover'],
+      scale: ['group-hover'],
+      translate: ['group-hover'],
+      opacity: ['group-hover'],
     },
   },
   plugins: [],
