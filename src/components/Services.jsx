@@ -112,7 +112,7 @@ const Services = () => {
                             className='group relative'
                         >
                            
-                            <div className='relative z-10 h-full bg-white rounded-2xl p-8 shadow-lg transition-all duration-300 group-hover:shadow-xl'>
+                            <div className='relative z-[1] h-full bg-white rounded-2xl p-8 shadow-lg transition-all duration-300 group-hover:shadow-xl'>
                                
                                 <div className='mb-8 relative'>
                                     <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${service.color} flex items-center justify-center text-white transform transition-transform duration-300 group-hover:scale-110`}>
