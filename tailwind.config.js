@@ -20,11 +20,21 @@ module.exports = {
       },
       animation: {
         'progress': 'progress 1s ease-in-out forwards',
+        'gradient': 'gradient 3s ease infinite',
+        'shimmer': 'shimmer 2s infinite',
       },
       keyframes: {
         progress: {
           '0%': { width: '0%' },
           '100%': { width: 'var(--progress)' },
+        },
+        gradient: {
+          '0%, 100%': { 'background-position': '0% 50%' },
+          '50%': { 'background-position': '100% 50%' },
+        },
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
         },
       },
       transitionProperty: {

@@ -49,7 +49,7 @@ const Header = () => {
 
     return (
         <>
-        <header className={`z-10 mx-auto w-full items-center justify-between  bg-white fixed  top-0 right-0 transition-all  left-0 flex duration-500 ${isScroll ? 'shadow-lg py-0' : 'py-4'}`}>
+        <header className={`z-50 mx-auto w-full items-center justify-between  bg-white fixed  top-0 right-0 transition-all  left-0 flex duration-500 ${isScroll ? 'shadow-lg py-0' : 'py-4'}`}>
             <nav className="w-full flex items-center justify-between max-w-7xl mx-auto px-4 py-3 md:py-4 duration-500 transition-all">
                 <Link href="/" className='font-semibold text-lg text-[#1f436e]' title='Dev'>
                     <Image src="/images/logo.png" alt='logo' width={40} height={40}/>
@@ -69,9 +69,7 @@ const Header = () => {
                     <li>
                         <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'about' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#about" rel="about" title="about" scroll={true}>About</Link>
                     </li>
-                    <li>
-                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'services' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#services" rel="Services" title="Services" scroll={true}>Services</Link>
-                    </li>
+               
                     <li>
                         <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'skills' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#skills" rel="Skills" title="Skills" scroll={true}>Skills</Link>
                     </li>
@@ -80,6 +78,10 @@ const Header = () => {
                     </li>
                     <li>
                         <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'projects' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#projects" rel="Projects" title="Projects" scroll={true}>Projects</Link>
+                    </li>
+                
+                    <li>
+                        <Link  className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'services' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#services" rel="Services" title="Services" scroll={true}>Services</Link>
                     </li>
                     <li>
                         <Link className={`text-sm  md:text-base hover:text-[#1f436e] font-medium  transition-all duration-300 ease-linear pb-1  hover:border-[#1f436e] ${isActiveSection === 'contact' ? 'text-[#1f436e] border-b-2  border-[#1f436e]' : 'text-gray-600 border-solid border-b-2 border-transparent' }`} href="/#contact" rel="Contact" title="Contact" scroll={true}>Contact</Link>

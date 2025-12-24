@@ -21,18 +21,18 @@ export default function Home() {
 				<About/>
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
-				<Services/>
-			</Suspense>
-			<Suspense fallback={<p>Loading...</p>}>
 				<Skills/>
 			</Suspense>
 			<Suspense fallback={<p>Loading...</p>}>
 				<Resume/>
 			</Suspense>
+				
 			<Suspense fallback={<p>Loading...</p>}>
 				<Projects/>
 			</Suspense>
-			
+			<Suspense fallback={<p>Loading...</p>}>
+				<Services/>
+			</Suspense>
 		</main>
 		<Suspense fallback={<p>Loading...</p>}>
 			<Footer/>
